@@ -1,0 +1,51 @@
+
+body{
+  font-family:sans-serif;
+  background-color: #aaaaaa;
+  padding:0;
+  margin:0;
+}
+header{
+  background-color: #666666;
+  height:80px;
+}
+.product{
+background-color: whitesmoke;
+/* border : 1px solid black; */
+margin : 1em;
+padding : 0.5em;
+display : inline-block; 
+width : 30vw;
+height : 20vw;
+position: relative;
+border-radius: 3px;
+box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+
+}
+.product img{
+  width: 100%;
+}
+.product .name{
+  font-size: 0.9rem;
+}
+.product .price{
+  font-size: 1.1rem;
+}
+.product button{
+  position: absolute;
+  background-color: #dddddd;
+  right: 3px;
+  bottom:3px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border:none;
+}
+.product .text{
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+}
+#quantity{
+  text-align: right;
+}
